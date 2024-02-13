@@ -29,4 +29,7 @@ class Sorter {
             array[i + 1] = key;
         }
     }
+    public void sort(int array[]){
+        insertionSort(array);
+    }
 }
